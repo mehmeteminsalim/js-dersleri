@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h1>Todo App</h1>
+    <div>
+
+        <div class="add-todo-container">
+
+            <form id="todo-ekle-form" class="add-todo-form" method="post">
+                <input placeholder="Todo giriniz..." class="input-primary w-80" type="text">
+                <button class="btn-primary w-40" type="submit">Todo Ekle</button>
+            </form>
+
+        </div>
+
+        <div class="list-add-todo-container">
+
+            <div>
+                <input placeholder="Todo ara..." class="input-primary w-80" type="text">
+            </div>
+
+            <ul class="list-add-todo">
+                <li class="listItem-add-todo">
+                    <span>Todo-1</span>
+                    <span>✘</span>
+                </li>
+                <li class="listItem-add-todo">
+                    <span>Todo-1</span>
+                    <span>✘</span>
+                </li>
+                <li class="listItem-add-todo">
+                    <span>Todo-1</span>
+                    <span>✘</span>
+                </li>
+            </ul>
+
+            <div>
+                <button class="btn-primary">Todoları Temizle</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

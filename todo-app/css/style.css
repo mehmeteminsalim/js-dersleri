@@ -1,0 +1,68 @@
+body{
+    background-color: aliceblue;
+}
+
+.btn-primary{
+    border: none;
+    background-color: rgb(2, 22, 61);
+    color: white;
+    padding: .5rem .8rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+.w-40{
+    width: 40%;
+}
+.w-80{
+    width: 80%;
+}
+
+.input-primary{
+    border: 1px solid gray;
+    border-radius: .2rem;
+    height: 1.3rem;
+}
+
+.add-todo-container{
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.add-todo-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list-add-todo{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.listItem-add-todo{
+    background-color: skyblue;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listItem-add-todo span:first-child{
+    color: blue;
+}
+
+.listItem-add-todo span:last-child{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
