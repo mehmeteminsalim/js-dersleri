@@ -16,8 +16,8 @@
 
         <div class="add-todo-container">
 
-            <form id="todo-ekle-form" class="add-todo-form" method="post">
-                <input placeholder="Todo giriniz..." class="input-primary w-80" type="text">
+            <form id="todo-ekle-form" class="add-todo-form">
+                <input placeholder="Todo giriniz..." class="input-primary w-80" id="form-input" type="text">
                 <button class="btn-primary w-40" type="submit">Todo Ekle</button>
             </form>
 
@@ -29,23 +29,16 @@
                 <input placeholder="Todo ara..." class="input-primary w-80" type="text">
             </div>
 
-            <ul class="list-add-todo">
-                <li class="listItem-add-todo">
+            <ul class="list-add-todo" id="todo-list">
+                <!-- <li class="listItem-add-todo">
                     <span>Todo-1</span>
                     <span>✘</span>
-                </li>
-                <li class="listItem-add-todo">
-                    <span>Todo-1</span>
-                    <span>✘</span>
-                </li>
-                <li class="listItem-add-todo">
-                    <span>Todo-1</span>
-                    <span>✘</span>
-                </li>
+                </li> -->
+
             </ul>
 
             <div>
-                <button class="btn-primary">Todoları Temizle</button>
+                <button class="btn-primary" id="delete-all-todo-btn">Todoları Temizle</button>
             </div>
 
         </div>
